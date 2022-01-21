@@ -5,6 +5,8 @@
   <style data-merge-styles="true"></style>
   <meta charset="UTF-8">
   <title>页面仍在建设</title>
+  <link rel="stylesheet" href="/layui/css/layui.css">
+  <script src="/layui/layui.js"></script>
   <style>
     body {
       font-family: Segoe UI;
@@ -102,6 +104,23 @@
 </head>
 
 <body>
+  <ul class="layui-nav" lay-filter="">
+    <li class="layui-nav-item"><a href=""><a href="/"></a>主页</a></li>
+    <li class="layui-nav-item">
+      <a href="javascript:;">工作室</a>
+      <dl class="layui-nav-child"> <!-- 二级菜单 -->
+        <dd><a href="/studio/powercode">PowerCode Studio</a></dd>
+      </dl>
+    </li>
+    <li class="layui-nav-item"><a href="/downloads">资源下载</a></li>
+  </ul>
+   
+  <script>
+  layui.use('element', function(){
+    var element = layui.element;
+  });
+  </script>
+
   <div id="page">
     <div id="container">
       <h1>o(*^▽^*)┛</h1>
