@@ -22,6 +22,14 @@ div.singlebox {
   margin-bottom: 15px;
 }
 
+div.headblock {
+  background     : url(/static/footblock.png);
+  color          : #f3f3f3;
+  background-size: cover;
+  padding        : 10%;
+  font-size      : 25px;
+}
+
 div.footblock {
   background     : url(/static/footblock.png);
   color          : #f3f3f3;
