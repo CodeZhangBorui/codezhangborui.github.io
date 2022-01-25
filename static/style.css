@@ -23,15 +23,15 @@ div.singlebox {
 }
 
 div.headblock {
-  background     : url(/static/footblock.png);
+  background     : url(/static/sunrise.jpg);
   color          : #f3f3f3;
   background-size: cover;
-  padding        : 10%;
-  font-size      : 25px;
+  padding        : 8%;
+  font-size      : 27px;
 }
 
 div.footblock {
-  background     : url(/static/footblock.png);
+  background     : url(/static/footblock.jpg);
   color          : #f3f3f3;
   background-size: cover;
   padding        : 5%;
