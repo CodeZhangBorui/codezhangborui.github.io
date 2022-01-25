@@ -39,3 +39,7 @@ div.footblock {
   padding              : 5%;
   font-size            : 17px;
 }
+
+b {
+  font-weight: bold;
+}
