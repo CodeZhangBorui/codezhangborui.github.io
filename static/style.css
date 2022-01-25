@@ -23,17 +23,19 @@ div.singlebox {
 }
 
 div.headblock {
-  background     : url(/static/sunrise.jpg);
-  color          : #f3f3f3;
-  background-size: cover;
-  padding        : 8%;
-  font-size      : 27px;
+  background           : url(/static/sunrise.jpg);
+  background-position-y: 80%;
+  color                : #f3f3f3;
+  background-size      : cover;
+  padding              : 8%;
+  font-size            : 27px;
 }
 
 div.footblock {
-  background     : url(/static/footblock.jpg);
-  color          : #f3f3f3;
-  background-size: cover;
-  padding        : 5%;
-  font-size      : 17px;
+  background           : url(/static/footblock.jpg);
+  background-position-y: 60%;
+  color                : #f3f3f3;
+  background-size      : cover;
+  padding              : 5%;
+  font-size            : 17px;
 }
