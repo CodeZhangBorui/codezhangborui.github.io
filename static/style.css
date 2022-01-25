@@ -45,5 +45,13 @@ b {
 }
 
 code {
+  display: block;
+  word-wrap: break-word;
   font-family: 'Cascadia Code', 'Consolas', '宋体';
+  border-style: solid;
+  border-width: 1px;
+  border-color: #B2B2B2;
+  border-radius: 4px;
+  margin: 7px 0px 7px 0px;
+  padding: 2px;
 }
