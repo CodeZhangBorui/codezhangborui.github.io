@@ -43,3 +43,7 @@ div.footblock {
 b {
   font-weight: bold;
 }
+
+code {
+  font-family: 'Cascadia Code', 'Consolas', '宋体';
+}
