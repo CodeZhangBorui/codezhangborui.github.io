@@ -4,6 +4,7 @@ body {
   color      : #fefeff;
   height     : 100vh;
   margin     : 0;
+  cursor     : none !important;
 }
 
 #page {
