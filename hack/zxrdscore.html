@@ -11,7 +11,16 @@
         console.log("v1.0.220408 By CodeZhangBorui");
     </script>
     <script>
-        function index() {
+        function 全真考试() {
+            ActiveID = prompt("请输入授权码","");
+            ExamID = prompt("请输入全真考场序号","");
+            Score = prompt("请输入成绩（一定要乘100！）","12000");
+            JumpURL = "http://www.itexam.com/User/submitscore/" + ActiveID + "_EXAM" + ExamID + "_" + Score;
+            console.log("JumpURL = " + JumpURL);
+            alert("即将跳转：" + JumpURL);
+            window.location.href = JumpURL;
+        }
+        function 模拟考试() {
             ActiveID = prompt("请输入授权码","");
             ExamID = prompt("请输入全真考场序号","");
             Score = prompt("请输入成绩（一定要乘100！）","12000");
@@ -25,7 +34,7 @@
     <h1>欢迎使用</h1>
     <p>中星睿典班级成绩修改器<br/>v1.0.220408 By CodeZhangBorui</p>
     <br/>
-    <p>请提前准备好23位授权码、考场号（去除前导零）、想要提交的成绩乘100（一定要乘100！）</p>
-    <button onclick="index();">开始执行</button>
+    <p>请提前准备好23位授权码、考场号（去除前导零，例：1,9,13,21,34）、想要提交的成绩乘100（一定要乘100！）</p>
+    <button onclick="全真考试();">Run Moudle：全真考试()</button> <button onclick="模拟考试();">Run Moudle：模拟考试()</button>
 </body>
 </html>
