@@ -16,5 +16,3 @@ function Moni() {
     alert("即将跳转：" + JumpURL);
     window.location.href = JumpURL;
 }
-
-export { EXAM, Moni };
