@@ -1,4 +1,4 @@
-function 全真考试() {
+function EXAM() {
     ActiveID = prompt("请输入授权码","");
     ExamID = prompt("请输入全真考场序号","");
     Score = prompt("请输入成绩（一定要乘100！）","12000");
@@ -7,7 +7,7 @@ function 全真考试() {
     alert("即将跳转：" + JumpURL);
     window.location.href = JumpURL;
 }
-function 模拟考试() {
+function Moni() {
     ActiveID = prompt("请输入授权码","");
     ExamID = prompt("请输入全真考场序号","");
     Score = prompt("请输入成绩（一定要乘100！）","12000");
@@ -17,4 +17,4 @@ function 模拟考试() {
     window.location.href = JumpURL;
 }
 
-export { 全真考试, 模拟考试 };
+export { EXAM, Moni };
