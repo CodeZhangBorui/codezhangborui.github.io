@@ -24,8 +24,8 @@
         }, 4000)
         setTimeout(() => {
             text.innerHTML = `重定向中…… <a href="${url}"> 没有自动重定向？点击这里。</a>`
+            window.location=url;
         }, 5000)
-        window.location=url;
     </script>
 </body>
 </html>
