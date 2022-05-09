@@ -465,46 +465,13 @@
   </Examination>
   <Examination>
     <eNo>42</eNo>
-    <eName>Python拓展题目1</eName>
-    <eNum>10</eNum>
-    <eQNoList>1,2,3,4,5,6,7,8,9,10</eQNoList>
-    <eClassList>G29,G29,G29,G29,G29,G29,G29,G29,G29,G29</eClassList>
-    <eValueList>10,10,10,10,10,10,10,10,10,10</eValueList>
+    <eName>Python拓展题目</eName>
+    <eNum>28</eNum>
+    <eQNoList>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28</eQNoList>
+    <eClassList>G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29</eClassList>
+    <eValueList>10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10</eValueList>
     <eTime>3600</eTime>
     <eTypeList>R</eTypeList>
-    <eTypeNum>10</eTypeNum>
-  </Examination>
-  <Examination>
-    <eNo>43</eNo>
-    <eName>Python拓展题目2</eName>
-    <eNum>10</eNum>
-    <eQNoList>11,12,13,14,15,16,17,18,19,20</eQNoList>
-    <eClassList>G29,G29,G29,G29,G29,G29,G29,G29,G29,G29</eClassList>
-    <eValueList>10,10,10,10,10,10,10,10,10,10</eValueList>
-    <eTime>3600</eTime>
-    <eTypeList>R</eTypeList>
-    <eTypeNum>10</eTypeNum>
-  </Examination>
-  <Examination>
-    <eNo>44</eNo>
-    <eName>Python拓展题目3</eName>
-    <eNum>10</eNum>
-    <eQNoList>21,22,23,24,25,26,27,28,29,30</eQNoList>
-    <eClassList>G29,G29,G29,G29,G29,G29,G29,G29,G29,G29</eClassList>
-    <eValueList>10,10,10,10,10,10,10,10,10,10</eValueList>
-    <eTime>3600</eTime>
-    <eTypeList>R</eTypeList>
-    <eTypeNum>10</eTypeNum>
-  </Examination>
-  <Examination>
-    <eNo>45</eNo>
-    <eName>Python拓展题目4</eName>
-    <eNum>10</eNum>
-    <eQNoList>31,32,33,34,35,36,37,38,39,40</eQNoList>
-    <eClassList>G29,G29,G29,G29,G29,G29,G29,G29,G29,G29</eClassList>
-    <eValueList>10,10,10,10,10,10,10,10,10,10</eValueList>
-    <eTime>3600</eTime>
-    <eTypeList>R</eTypeList>
-    <eTypeNum>10</eTypeNum>
+    <eTypeNum>28</eTypeNum>
   </Examination>
 </Examinations>
