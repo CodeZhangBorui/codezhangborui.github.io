@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+  <style data-merge-styles="true"></style>
+  <meta charset="UTF-8">
+  <title>CodeZhangBorui (Preview)</title>
+  <link rel="icon" type="image/x-ico" href="/static/logo.jpg"/>
+  <link rel="stylesheet" href="/lib/layui/css/layui.css">
+  <link rel="stylesheet" href="/static/style.min.css">
+  <script src="/lib/layui/layui.js"></script>
+</head>
+
+<body>
+  <style>
+    body .w11windows .layui-layer-title {
+      background-color: #e3edf5;
+      color: #000;
+    }
+  </style>
+  <script>
+    function openWindows(title, url){
+      layer.open({
+        title: title,
+        type:2,
+        content: url,
+        maxmin: true,
+        shade: 0
+      });
+    }
+  </script>
+  <ul class="layui-nav" lay-filter="">
+    <li class="layui-nav-item layui-this"><a href="/">返回主页</a></li>
+    <li class="layui-nav-item">
+      <a href="javascript:openWindows('VSCode', 'https://vscode.dev');">
+        <img src="https://vscode.dev/static/stable/favicon.ico" />VSCode
+      </a>
+    </li>
+    <li class="layui-nav-item">
+      <a href="javascript:;">工作室</a>
+      <dl class="layui-nav-child"> <!-- 二级菜单 -->
+        <dd><a href="/studio/powercode">PowerCode Studio</a></dd>
+      </dl>
+    </li>
+    <li class="layui-nav-item"><a href="/downloads">资源下载</a></li>
+  </ul>
+
+  <script>
+    layui.use('element', function(){
+      var element = layui.element;
+    });
+    </script>
+</body>
+</html>
