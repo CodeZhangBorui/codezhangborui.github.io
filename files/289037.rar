@@ -3,7 +3,7 @@
   <info>SDDY</info>
   <Examination>
     <eNo>0</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜001</eName>
+    <eName>Ä£ÄâÌâ001</eName>
     <eNum>27</eNum>
     <eQNoList>1,63,125,188,250,312,374,436,499,561,623,685,747,810,872,1,48,95,143,190,1,1,1,1,1,1,1</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -14,7 +14,7 @@
   </Examination>
   <Examination>
     <eNo>1</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜002</eName>
+    <eName>Ä£ÄâÌâ002</eName>
     <eNum>27</eNum>
     <eQNoList>2,65,127,189,251,313,376,438,500,562,624,687,749,811,873,2,49,97,144,191,2,2,2,2,2,2,2</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -25,7 +25,7 @@
   </Examination>
   <Examination>
     <eNo>2</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜003</eName>
+    <eName>Ä£ÄâÌâ003</eName>
     <eNum>27</eNum>
     <eQNoList>4,66,128,191,253,315,377,439,502,564,626,688,750,813,875,3,50,98,145,192,3,3,3,3,3,3,3</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -36,7 +36,7 @@
   </Examination>
   <Examination>
     <eNo>3</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜004</eName>
+    <eName>Ä£ÄâÌâ004</eName>
     <eNum>27</eNum>
     <eQNoList>5,68,130,192,254,316,379,441,503,565,627,690,752,814,876,4,51,99,146,194,4,4,4,4,4,4,4</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -47,7 +47,7 @@
   </Examination>
   <Examination>
     <eNo>4</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜005</eName>
+    <eName>Ä£ÄâÌâ005</eName>
     <eNum>27</eNum>
     <eQNoList>7,69,131,194,256,318,380,442,505,567,629,691,753,816,878,5,53,100,147,195,5,5,5,5,5,5,5</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -58,7 +58,7 @@
   </Examination>
   <Examination>
     <eNo>5</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜006</eName>
+    <eName>Ä£ÄâÌâ006</eName>
     <eNum>27</eNum>
     <eQNoList>8,71,133,195,257,319,382,444,506,568,630,693,755,817,879,6,54,101,148,196,7,6,6,6,6,6,6</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -69,7 +69,7 @@
   </Examination>
   <Examination>
     <eNo>6</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜007</eName>
+    <eName>Ä£ÄâÌâ007</eName>
     <eNum>27</eNum>
     <eQNoList>10,72,134,196,259,321,383,445,507,570,632,694,756,818,881,7,55,102,150,197,8,7,7,7,7,7,7</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -80,7 +80,7 @@
   </Examination>
   <Examination>
     <eNo>7</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜008</eName>
+    <eName>Ä£ÄâÌâ008</eName>
     <eNum>27</eNum>
     <eQNoList>11,74,136,198,260,322,385,447,509,571,633,696,758,820,882,9,56,103,151,198,9,8,8,8,8,8,8</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -91,7 +91,7 @@
   </Examination>
   <Examination>
     <eNo>8</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜009</eName>
+    <eName>Ä£ÄâÌâ009</eName>
     <eNum>27</eNum>
     <eQNoList>13,75,137,199,262,324,386,448,510,573,635,697,759,821,884,10,57,104,152,199,10,9,9,9,9,9,9</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -102,7 +102,7 @@
   </Examination>
   <Examination>
     <eNo>9</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜010</eName>
+    <eName>Ä£ÄâÌâ010</eName>
     <eNum>27</eNum>
     <eQNoList>14,77,139,201,263,325,388,450,512,574,636,699,761,823,885,11,58,106,153,200,11,10,10,10,10,10,10</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -113,7 +113,7 @@
   </Examination>
   <Examination>
     <eNo>10</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜011</eName>
+    <eName>Ä£ÄâÌâ011</eName>
     <eNum>27</eNum>
     <eQNoList>16,78,140,202,265,327,389,451,513,576,638,700,762,824,887,12,59,107,154,202,12,11,11,11,11,11,11</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -124,7 +124,7 @@
   </Examination>
   <Examination>
     <eNo>11</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜012</eName>
+    <eName>Ä£ÄâÌâ012</eName>
     <eNum>27</eNum>
     <eQNoList>17,79,142,204,266,328,390,453,515,577,639,701,764,826,888,13,60,108,155,203,14,12,12,12,12,12,12</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -135,7 +135,7 @@
   </Examination>
   <Examination>
     <eNo>12</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜013</eName>
+    <eName>Ä£ÄâÌâ013</eName>
     <eNum>27</eNum>
     <eQNoList>19,81,143,205,268,330,392,454,516,579,641,703,765,827,890,14,62,109,156,204,15,13,13,13,13,13,13</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -146,7 +146,7 @@
   </Examination>
   <Examination>
     <eNo>13</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜014</eName>
+    <eName>Ä£ÄâÌâ014</eName>
     <eNum>27</eNum>
     <eQNoList>20,82,145,207,269,331,393,456,518,580,642,704,767,829,891,15,63,110,158,205,16,14,14,14,14,14,14</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -157,7 +157,7 @@
   </Examination>
   <Examination>
     <eNo>14</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜015</eName>
+    <eName>Ä£ÄâÌâ015</eName>
     <eNum>27</eNum>
     <eQNoList>22,84,146,208,271,333,395,457,519,582,644,706,768,830,893,16,64,111,159,206,17,15,15,15,15,15,15</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -168,7 +168,7 @@
   </Examination>
   <Examination>
     <eNo>15</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜016</eName>
+    <eName>Ä£ÄâÌâ016</eName>
     <eNum>27</eNum>
     <eQNoList>23,85,148,210,272,334,396,459,521,583,645,707,770,832,894,18,65,112,160,207,18,16,16,16,16,16,16</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -179,7 +179,7 @@
   </Examination>
   <Examination>
     <eNo>16</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜017</eName>
+    <eName>Ä£ÄâÌâ017</eName>
     <eNum>27</eNum>
     <eQNoList>25,87,149,211,273,336,398,460,522,584,647,709,771,833,895,19,66,113,161,208,19,17,17,17,17,17,17</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -190,7 +190,7 @@
   </Examination>
   <Examination>
     <eNo>17</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜018</eName>
+    <eName>Ä£ÄâÌâ018</eName>
     <eNum>27</eNum>
     <eQNoList>26,88,151,213,275,337,399,462,524,586,648,710,773,835,897,20,67,115,162,209,21,18,18,18,18,18,18</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -201,7 +201,7 @@
   </Examination>
   <Examination>
     <eNo>18</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜019</eName>
+    <eName>Ä£ÄâÌâ019</eName>
     <eNum>27</eNum>
     <eQNoList>28,90,152,214,276,339,401,463,525,587,650,712,774,836,898,21,68,116,163,211,22,19,19,19,19,19,19</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -212,7 +212,7 @@
   </Examination>
   <Examination>
     <eNo>19</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜020</eName>
+    <eName>Ä£ÄâÌâ020</eName>
     <eNum>27</eNum>
     <eQNoList>29,91,154,216,278,340,402,465,527,589,651,713,776,838,900,22,69,117,164,212,23,20,20,20,20,20,20</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -223,7 +223,7 @@
   </Examination>
   <Examination>
     <eNo>20</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜021</eName>
+    <eName>Ä£ÄâÌâ021</eName>
     <eNum>27</eNum>
     <eQNoList>31,93,155,217,279,342,404,466,528,590,653,715,777,839,901,23,71,118,165,213,24,21,21,21,21,21,21</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -234,7 +234,7 @@
   </Examination>
   <Examination>
     <eNo>21</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜022</eName>
+    <eName>Ä£ÄâÌâ022</eName>
     <eNum>27</eNum>
     <eQNoList>32,94,156,219,281,343,405,467,530,592,654,716,778,841,903,24,72,119,167,214,25,22,22,22,22,22,22</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -245,7 +245,7 @@
   </Examination>
   <Examination>
     <eNo>22</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜023</eName>
+    <eName>Ä£ÄâÌâ023</eName>
     <eNum>27</eNum>
     <eQNoList>34,96,158,220,282,345,407,469,531,593,656,718,780,842,904,25,73,120,168,215,26,23,23,23,23,23,23</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -256,7 +256,7 @@
   </Examination>
   <Examination>
     <eNo>23</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜024</eName>
+    <eName>Ä£ÄâÌâ024</eName>
     <eNum>27</eNum>
     <eQNoList>35,97,159,222,284,346,408,470,533,595,657,719,781,844,906,27,74,121,169,216,28,24,24,24,24,24,24</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -267,7 +267,7 @@
   </Examination>
   <Examination>
     <eNo>24</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜025</eName>
+    <eName>Ä£ÄâÌâ025</eName>
     <eNum>27</eNum>
     <eQNoList>37,99,161,223,285,348,410,472,534,596,659,721,783,845,907,28,75,123,170,217,29,25,25,25,25,25,25</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -278,7 +278,7 @@
   </Examination>
   <Examination>
     <eNo>25</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜026</eName>
+    <eName>Ä£ÄâÌâ026</eName>
     <eNum>27</eNum>
     <eQNoList>38,100,162,225,287,349,411,473,536,598,660,722,784,847,909,29,76,124,171,218,30,26,26,26,26,26,26</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -289,7 +289,7 @@
   </Examination>
   <Examination>
     <eNo>26</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜027</eName>
+    <eName>Ä£ÄâÌâ027</eName>
     <eNum>27</eNum>
     <eQNoList>39,102,164,226,288,350,413,475,537,599,661,724,786,848,910,30,77,125,172,220,31,27,27,27,27,27,27</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -300,7 +300,7 @@
   </Examination>
   <Examination>
     <eNo>27</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜028</eName>
+    <eName>Ä£ÄâÌâ028</eName>
     <eNum>27</eNum>
     <eQNoList>41,103,165,228,290,352,414,476,539,601,663,725,787,850,912,31,79,126,173,221,32,28,28,28,28,28,28</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -311,7 +311,7 @@
   </Examination>
   <Examination>
     <eNo>28</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜029</eName>
+    <eName>Ä£ÄâÌâ029</eName>
     <eNum>27</eNum>
     <eQNoList>42,105,167,229,291,353,416,478,540,602,664,727,789,851,913,32,80,127,174,222,33,29,29,29,29,29,29</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -322,7 +322,7 @@
   </Examination>
   <Examination>
     <eNo>29</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜030</eName>
+    <eName>Ä£ÄâÌâ030</eName>
     <eNum>27</eNum>
     <eQNoList>44,106,168,231,293,355,417,479,542,604,666,728,790,853,915,33,81,128,176,223,35,30,30,30,30,30,30</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -333,7 +333,7 @@
   </Examination>
   <Examination>
     <eNo>30</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜031</eName>
+    <eName>Ä£ÄâÌâ031</eName>
     <eNum>27</eNum>
     <eQNoList>45,108,170,232,294,356,419,481,543,605,667,730,792,854,916,34,82,129,177,224,36,31,31,31,31,31,31</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -344,7 +344,7 @@
   </Examination>
   <Examination>
     <eNo>31</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜032</eName>
+    <eName>Ä£ÄâÌâ032</eName>
     <eNum>27</eNum>
     <eQNoList>47,109,171,233,296,358,420,482,544,607,669,731,793,855,918,36,83,130,178,225,37,32,32,32,32,32,32</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -355,7 +355,7 @@
   </Examination>
   <Examination>
     <eNo>32</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜033</eName>
+    <eName>Ä£ÄâÌâ033</eName>
     <eNum>27</eNum>
     <eQNoList>48,111,173,235,297,359,422,484,546,608,670,733,795,857,919,37,84,132,179,226,38,33,33,33,33,33,33</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -366,7 +366,7 @@
   </Examination>
   <Examination>
     <eNo>33</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜034</eName>
+    <eName>Ä£ÄâÌâ034</eName>
     <eNum>27</eNum>
     <eQNoList>50,112,174,236,299,361,423,485,547,610,672,734,796,858,921,38,85,133,180,227,39,34,34,34,34,34,34</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -377,7 +377,7 @@
   </Examination>
   <Examination>
     <eNo>34</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜035</eName>
+    <eName>Ä£ÄâÌâ035</eName>
     <eNum>27</eNum>
     <eQNoList>51,114,176,238,300,362,425,487,549,611,673,736,798,860,922,39,86,134,181,229,40,35,35,35,35,35,35</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -388,7 +388,7 @@
   </Examination>
   <Examination>
     <eNo>35</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜036</eName>
+    <eName>Ä£ÄâÌâ036</eName>
     <eNum>27</eNum>
     <eQNoList>53,115,177,239,302,364,426,488,550,613,675,737,799,861,924,40,88,135,182,230,42,36,36,36,36,36,36</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -399,7 +399,7 @@
   </Examination>
   <Examination>
     <eNo>36</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜037</eName>
+    <eName>Ä£ÄâÌâ037</eName>
     <eNum>27</eNum>
     <eQNoList>54,116,179,241,303,365,427,490,552,614,676,738,801,863,925,41,89,136,183,231,43,37,37,37,37,37,37</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -410,7 +410,7 @@
   </Examination>
   <Examination>
     <eNo>37</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜038</eName>
+    <eName>Ä£ÄâÌâ038</eName>
     <eNum>27</eNum>
     <eQNoList>56,118,180,242,305,367,429,491,553,616,678,740,802,864,927,42,90,137,185,232,44,38,38,38,38,38,38</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -421,7 +421,7 @@
   </Examination>
   <Examination>
     <eNo>38</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜039</eName>
+    <eName>Ä£ÄâÌâ039</eName>
     <eNum>27</eNum>
     <eQNoList>57,119,182,244,306,368,430,493,555,617,679,741,804,866,928,44,91,138,186,233,45,39,39,39,39,39,39</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -432,7 +432,7 @@
   </Examination>
   <Examination>
     <eNo>39</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜040</eName>
+    <eName>Ä£ÄâÌâ040</eName>
     <eNum>27</eNum>
     <eQNoList>59,121,183,245,308,370,432,494,556,619,681,743,805,867,930,45,92,139,187,234,46,40,40,40,40,40,40</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -443,7 +443,7 @@
   </Examination>
   <Examination>
     <eNo>40</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜041</eName>
+    <eName>Ä£ÄâÌâ041</eName>
     <eNum>27</eNum>
     <eQNoList>60,122,185,247,309,371,433,496,558,620,682,744,807,869,931,46,93,141,188,235,47,41,41,41,41,41,41</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -454,7 +454,7 @@
   </Examination>
   <Examination>
     <eNo>41</eNo>
-    <eName>æ¨¡æ‹Ÿé¢˜042</eName>
+    <eName>Ä£ÄâÌâ042</eName>
     <eNum>27</eNum>
     <eQNoList>62,124,186,248,311,373,435,497,559,622,684,746,808,870,933,47,94,142,189,237,49,42,42,42,42,42,42</eQNoList>
     <eClassList>ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,ADY,CWP,CWP,CWP,CWP,CWP,X9D,W65,P65,E65,S64,G22,N9D</eClassList>
@@ -465,7 +465,7 @@
   </Examination>
   <Examination>
     <eNo>42</eNo>
-    <eName>Pythonæ‹“å±•é¢˜ç›®</eName>
+    <eName>PythonÍØÕ¹ÌâÄ¿</eName>
     <eNum>28</eNum>
     <eQNoList>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28</eQNoList>
     <eClassList>G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29,G29</eClassList>
