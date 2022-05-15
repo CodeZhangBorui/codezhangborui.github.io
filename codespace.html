@@ -11,7 +11,7 @@
   <script src="/lib/layui/layui.js"></script>
 </head>
 
-<body background="url('\static\footblock.jpg')">
+<body>
   <style>
     body .w11windows .layui-layer-title {
       background-color: #e3edf5;
@@ -30,6 +30,10 @@
         shade: 0
       });
     }
+    function changeWallpaper(url){
+      document.body.style.background = `url(${url})`;
+    }
+    document.body.style.background = '/static/codespace/wallpapers/Windows 11 Light.jpg';
   </script>
   <ul class="layui-nav" lay-filter="">
     <li class="layui-nav-item layui-this"><a href="/">返回主页</a></li>
@@ -43,11 +47,12 @@
         <img src="/static/codespace/Bing.png" height="16px"/> 必应中国
       </a>
     </li>
+    <!--Github 不允许在框架内运行
     <li class="layui-nav-item">
       <a href="javascript:openWindows('Github', 'https://github.com/');">
-        <img src="/static/codespace/Github.svg" height="16px"/> 必应中国
+        <img src="/static/codespace/Github.svg" height="16px"/> Github
       </a>
-    </li>
+    </li>-->
     <li class="layui-nav-item">
       <a href="javascript:;">常用网站</a>
       <dl class="layui-nav-child"> <!-- 二级菜单 -->
@@ -62,6 +67,23 @@
         </a></dd>
         <dd><a href="javascript:openWindows('CPlusPlus', 'https://www.cplusplus.com/');">
           CPlusPlus
+        </a></dd>
+      </dl>
+    </li>
+    <li class="layui-nav-item">
+      <a href="javascript:;">切换壁纸</a>
+      <dl class="layui-nav-child"> <!-- 二级菜单 -->
+        <dd><a href="javascript:changeWallpaper('/static/codespace/wallpapers/Windows 11 Light.jpg');">
+          <img src="/static/codespace/wallpapers/Windows 11 Light.jpg" height="32px"/> Windows 11 Light
+        </a></dd>
+        <dd><a href="javascript:changeWallpaper('/static/codespace/wallpapers/Windows 11 Dark.jpg');">
+          <img src="/static/codespace/wallpapers/Windows 11 Dark.jpg" height="32px"/> Windows 11 Dark
+        </a></dd>
+        <dd><a href="javascript:changeWallpaper('/static/codespace/wallpapers/Sunrise Fields.jpg');">
+          <img src="/static/codespace/wallpapers/Sunrise Fields.jpg" height="32px"/> Sunrise Fields
+        </a></dd>
+        <dd><a href="javascript:changeWallpaper('/static/codespace/wallpapers/Glow Blue.jpg');">
+          <img src="/static/codespace/wallpapers/Glow Blue.jpg" height="32px"/> Glow Blue
         </a></dd>
       </dl>
     </li>
