@@ -1,6 +1,17 @@
 @font-face {
     font-family: "FluentSystemIcons-Regular";
-    src: url("./FluentSystemIcons-Regular.ttf?feeb3538ff8f5190fccf208410a65374") format("truetype");
+    src: url("/lib/FluentIcons/FluentSystemIcons-Regular.ttf") format("truetype");
+}
+
+fluent-icons-regular {
+    font-family: FluentSystemIcons-Regular !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
