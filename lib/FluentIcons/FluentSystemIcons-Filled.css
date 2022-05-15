@@ -3,17 +3,6 @@
     src: url("/lib/FluentIcons/FluentSystemIcons-Filled.ttf") format("truetype");
 }
 
-fluent-icons-filled {
-    font-family: FluentSystemIcons-Filled !important;
-    font-style: normal;
-    font-weight: normal !important;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
     font-family: FluentSystemIcons-Filled !important;
     font-style: normal;
