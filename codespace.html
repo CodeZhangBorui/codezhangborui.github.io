@@ -31,9 +31,9 @@
       });
     }
     function changeWallpaper(url){
-      document.body.style.background = `url(${url})`;
+      document.body.setAttribute("style", `width:100%; background:url('${url}') no-repeat; background-size:cover; position: absolute; overflow: hidden;`)
     }
-    document.body.style.background = '/static/codespace/wallpapers/Windows 11 Light.jpg';
+    changeWallpaper("/static/codespace/wallpapers/Windows 11 Light.jpg")
   </script>
   <ul class="layui-nav" lay-filter="">
     <li class="layui-nav-item layui-this"><a href="/">返回主页</a></li>
