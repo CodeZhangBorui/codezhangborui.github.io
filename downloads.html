@@ -120,27 +120,5 @@
       var element = layui.element;
     });
   </script>
-  <script>
-    var passowrd = "DownloadSSR5153";
-    var comform = "f5E2";
-    console.log("Hello! Are you finding ShadowsocksR download link? Sorry, we've deleted this link. Please contact CodeZhangBorui and learn more.");
-    function GetShadowsocksrLink() {
-      var inpwd = prompt("请输入密码");
-      if(inpwd == passowrd) {
-        var incomf = prompt("请输入即时验证码");
-        if(incomf == comform) {
-          console.log("验证完毕，链接：https://codezhangborui.github.io/article/shadowsocksr_download");
-        } else {
-          console.error("错误：即时验证码错误");
-        }
-      } else {
-        console.error("错误：密码错误");
-      }
-    }
-    function GetComform() {
-      console.warn("下载 SSR 也许会触犯刑法，请确认你已做好心理准备。");
-      console.log(comform);
-    }
-    </script>
 </body>
 </html>
