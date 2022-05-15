@@ -25,6 +25,8 @@
         type:2,
         content: url,
         maxmin: true,
+        area: ['800px', '450px'],
+        skin: 'w11windows',
         shade: 0
       });
     }
@@ -33,7 +35,12 @@
     <li class="layui-nav-item layui-this"><a href="/">返回主页</a></li>
     <li class="layui-nav-item">
       <a href="javascript:openWindows('VSCode', 'https://vscode.dev');">
-        <img src="https://vscode.dev/static/stable/favicon.ico" />VSCode
+        <img src="/static/codespace/VSCode.png" />VSCode
+      </a>
+    </li>
+    <li class="layui-nav-item">
+      <a href="javascript:openWindows('必应中国', 'https://cn.bing.com');">
+        <img src="/static/codespace/Bing.png" />必应中国
       </a>
     </li>
     <li class="layui-nav-item">
@@ -42,7 +49,6 @@
         <dd><a href="/studio/powercode">PowerCode Studio</a></dd>
       </dl>
     </li>
-    <li class="layui-nav-item"><a href="/downloads">资源下载</a></li>
   </ul>
 
   <script>
