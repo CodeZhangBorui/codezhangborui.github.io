@@ -10,7 +10,6 @@
 </head>
 
 <body>
-  <div style="display: float;" id="memoryDump"></div>
   <div id="page">
     <div id="container">
       <h1>:(</h1>
@@ -44,7 +43,7 @@
     function randomMemoryDump() {
       var charMap = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"]
       var memoryDump = ""
-      for (let i = 1; i <= 100; i++) {
+      for (let i = 1; i <= 500; i++) {
         for (let i = 0; i < 16; i++) {
           var simgleMemoryBitA = randomBetween(0, 15);
           var simgleMemoryBitB = randomBetween(0, 15);
@@ -53,7 +52,6 @@
         memoryDump += "\n"
       }
       console.log(memoryDump)
-      document.getElementById("memoryDump").innerText = memoryDump;
     }
   </script>
   <script>
