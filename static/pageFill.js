@@ -11,6 +11,7 @@ function fill_menuBar(this_element) {
 <li id="menuBar_Tool" class="layui-nav-item"><a href="/tool.html">工具箱</a></li>\
 <li id="menuBar_Codespace" class="layui-nav-item"><a href="/codespace.html">CodeSpace</a></li>\
 <li id="menuBar_Downloads" class="layui-nav-item"><a href="/downloads">资源下载</a></li>\
+<li id="menuBar_About" class="layui-nav-item"><a href="/about">关于</a></li>\
 '
   document.getElementById("menuBar").innerHTML = fillContent;
   document.getElementById("menuBar_" + this_element).className += " layui-this";
