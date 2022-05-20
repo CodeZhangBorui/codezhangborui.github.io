@@ -8,6 +8,7 @@ function fill_menuBar(this_element) {
     <dd><a href="/studio/powercode">PowerCode Studio</a></dd>\
   </dl>\
 </li>\
+<li id="menuBar_Tool" class="layui-nav-item"><a href="/tool.html">工具箱</a></li>\
 <li id="menuBar_Codespace" class="layui-nav-item"><a href="/codespace.html">CodeSpace</a></li>\
 <li id="menuBar_Downloads" class="layui-nav-item"><a href="/downloads">资源下载</a></li>\
 '
