@@ -1,0 +1,14 @@
+userLoginData = {
+    "admin": {
+        "username": "管理员"
+    },
+    "geyunze": {
+        "username": "葛运泽"
+    },
+    "test": {
+        "username": "测试"
+    },
+    "guest": {
+        "username": "游客"
+    }
+}

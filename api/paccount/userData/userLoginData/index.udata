@@ -1,0 +1,17 @@
+userLoginData = {
+    "admin": {
+        "verify": "SHA512PWD",
+        "SHA512PWD": "f9f15a7a5928fc3949a4f733ee965299d23ba285e862cf7e53fe9e915e20297f8ea96fc5cf56740d275c01984341bd3c599602bae80dd13ed387d534b2f4754b"
+    },
+    "geyunze": {
+        "verify": "SHA512PWD",
+        "SHA512PWD": "13b8010bd8779f63e714b9cb1b4dfd4b47d9e413f46ad61463a8d428b087996972e5ca96608bbdc9bc268ef96dc2ecd942527cb8b4ae94ccdfc2f0568e718810"
+    },
+    "test": {
+        "verify": "SHA512PWD",
+        "SHA512PWD": "ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413"
+    },
+    "guest": {
+        "verify": "NOPWD",
+    }
+}
