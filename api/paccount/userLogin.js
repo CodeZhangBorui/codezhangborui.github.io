@@ -28,6 +28,10 @@ function getCookie(cname)
     return "";
 }
 
+function redirectToHome() {
+    window.location = "/";
+}
+
 function readUserLoginData(udataSetName) {
     document.write(`<script src="https://codezhangborui.github.io/api/paccount/userData/userLoginData/${udataSetName}.udata" type="text/javascript" charset="utf-8"></script>`);
 }
@@ -58,11 +62,11 @@ function verifySHA512(username, userInputPwd) {
     if(userRightSHA512 == "SHA512PWD_NOT_FOUND") return "SHA512PWD_NOT_FOUND";
     userInputSHA512 = sha512(userInputPwd);
     if(userInputSHA512 == userRightSHA512) {
-        return "VERIFY_OK";
         setCookie("username", username, 30);
         setCookie("userpwd", userInputPwd, 30);
         setCookie("pwdSHA512", userRightSHA512, 30);
         setCookie("userLoginAuthCode", sha512(`${username},${userInputPwd}`), 30);
+        return "VERIFY_OK";
     }
     else return "WRONG_PWD"; 
 }
@@ -72,6 +76,13 @@ function verifyLoginStatus() {
     userpwd = getCookie("userpwd");
     pwdSHA512 = getCookie("pwdSHA512");
     userLoginAuthCode = getCookie("userLoginAuthCode");
+    if(username == "" || userpwd == "" || pwdSHA512 == "" || userLoginAuthCode == "") {
+        setCookie("username", "", 0);
+        setCookie("userpwd", "", 0);
+        setCookie("pwdSHA512", "", 0);
+        setCookie("userLoginAuthCode", "", 0);
+        return "NOT_LOGIN";
+    }
     userRightSHA512 = getUserSHA512PWD(username);
     if(userRightSHA512 == "USER_NOT_FOUND") {
         setCookie("username", "", 0);
@@ -98,4 +109,12 @@ function verifyLoginStatus() {
     } else {
         return "WRONG_PWD";
     }
+}
+
+function loginOut() {
+    setCookie("username", "", 0);
+    setCookie("userpwd", "", 0);
+    setCookie("pwdSHA512", "", 0);
+    setCookie("userLoginAuthCode", "", 0);
+    redirectToHome();
 }
