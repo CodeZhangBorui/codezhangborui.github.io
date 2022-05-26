@@ -3,20 +3,38 @@
 <head>
   <meta charset="utf-8" />
   <title>用户登录</title>
+  <link rel="icon" type="image/x-ico" href="/static/logo.jpg"/>
+  <link rel="stylesheet" href="/lib/layui/css/layui.css">
+  <link rel="stylesheet" href="/static/style.min.css">
+  <script src="/lib/layui/layui.js"></script>
   <script src="/api/paccount/userLogin.js"></script>
   <script src="https://codezhangborui.github.io/api/paccount/userData/userLoginData/index.udata" type="text/javascript" charset="utf-8"></script>
   <style>
     div.loginBox {
       width: 500px;
-      height: 800px;
+      height: 600px;
       position: absolute;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
       background-color: #ffffff;
-      border-radius: 5px;
+      border-radius: 10px;
       box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
       padding: 10px;
+    }
+    .loginTitle {
+      font-family: 'Segoe UI';
+      font-size: 28px;
+      font-weight: bold;
+      text-align: center;
+      margin: 10px;
+    }
+    .loginSubTitle {
+      font-family: 'Microsoft Yahei UI';
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+      margin: 10px;
     }
   </style>
 </head>
@@ -27,7 +45,8 @@
   <p>verifyLoginStatus()<br/> 是否已经登录？如果登录，返回用户名</p>
   <p>logOut()<br/> 退出登录</p>
   <div class="loginBox">
-    <p>loginForm</p>
+    <p class="loginTitle">PowerAccount</p>
+    <p class="loginSubTitle">用户登录</p>
   </div>
 </body>
 </html>
