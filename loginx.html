@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
-    <meta charset="utf-8" />
-    <title>用户登录</title>
-    <script src="/api/paccount/userLogin.js"></script>
-    <script src="https://codezhangborui.github.io/api/paccount/userData/userLoginData/index.udata" type="text/javascript" charset="utf-8"></script>
+  <meta charset="utf-8" />
+  <title>用户登录</title>
+  <script src="/api/paccount/userLogin.js"></script>
+  <script src="https://codezhangborui.github.io/api/paccount/userData/userLoginData/index.udata" type="text/javascript" charset="utf-8"></script>
+  <style>
+    div.loginBox {
+      width: 500px;
+      height: 800px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #ffffff;
+      border-radius: 5px;
+      padding: 10px;
+    }
+  </style>
 </head>
 <body>
-    <h3>请打开F12调试工具，然后……</h3>
-    <p>getVerifyData(username)<br/> 获取验证方式</p>
-    <p>loginWithPwd(username, userInputPwd)<br/> 登录</p>
-    <p>verifyLoginStatus()<br/> 是否已经登录？如果登录，返回用户名</p>
-    <p>logOut()<br/> 退出登录</p>
+  <h3>请打开F12调试工具，然后……</h3>
+  <p>getVerifyData(username)<br/> 获取验证方式</p>
+  <p>loginWithPwd(username, userInputPwd)<br/> 登录</p>
+  <p>verifyLoginStatus()<br/> 是否已经登录？如果登录，返回用户名</p>
+  <p>logOut()<br/> 退出登录</p>
+  <div class="loginBox">
+    <p>loginForm</p>
+  </div>
 </body>
 </html>
+
+<!--
+    
+-->
