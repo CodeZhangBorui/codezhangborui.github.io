@@ -11,8 +11,8 @@
   <script src="https://codezhangborui.github.io/api/paccount/userData/userLoginData/index.udata" type="text/javascript" charset="utf-8"></script>
   <style>
     div.loginBox {
-      width: 500px;
-      height: 600px;
+      width: 450px;
+      height: 620px;
       position: absolute;
       left: 50%;
       top: 50%;
@@ -47,7 +47,46 @@
   <div class="loginBox">
     <p class="loginTitle">PowerAccount</p>
     <p class="loginSubTitle">用户登录</p>
+    <br/><br/>
+    <form class="layui-form" style="margin: 10px;" action="">
+      <div class="layui-form-item">
+        <label class="layui-form-label">用户名</label>
+        <div class="layui-input-block">
+          <input type="text" name="username" required  lay-verify="required" placeholder="" autocomplete="off" class="layui-input">
+        </div>
+      </div>
+      <div class="layui-form-item">
+        <label class="layui-form-label">密码</label>
+        <div class="layui-input-block">
+          <input type="password" name="password" required lay-verify="required" placeholder="······" autocomplete="off" class="layui-input">
+        </div>
+      </div>
+      <div style="margin: 10px;">
+        <p>
+          <span style="color: red" id="redTip"></span>
+          <span style="color: rgb(0, 255, 0)" id="greenTip"></span>
+        </p>
+      </div>
+      <div class="layui-form-item">
+        <div class="layui-input-block">
+          <button class="layui-btn" lay-submit lay-filter="formDemo">立即登录</button>
+        </div>
+      </div>
+    </form>
   </div>
+  <script>
+    layui.use('form', function(){
+      var form = layui.form;
+      //监听提交
+      form.on('submit(formDemo)', function(data){
+        layer.msg(JSON.stringify(data.field));
+        inputUsername = document.getElementsByName('username')[0].value;
+        inputPassword = document.getElementsByName('password')[0].value;
+        console.log(`username=${inputUsername}, pwd=${inputPassword}!`)
+        return false;
+      });
+    });
+    </script>
 </body>
 </html>
 
