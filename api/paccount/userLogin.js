@@ -32,10 +32,6 @@ function redirectToHome() {
     window.location = "/";
 }
 
-function readUserLoginData(udataSetName) {
-    document.write(`<script src="https://codezhangborui.github.io/api/paccount/userData/userLoginData/${udataSetName}.udata" type="text/javascript" charset="utf-8"></script>`);
-}
-
 function getVerifyData(username) {
     var obj;
     obj = userLoginData[username];
@@ -56,7 +52,7 @@ function getUserSHA512PWD(username) {
     return ret;
 }
 
-function verifySHA512(username, userInputPwd) {
+function loginWithPwd(username, userInputPwd) {
     userRightSHA512 = getUserSHA512PWD(username);
     if(userRightSHA512 == "USER_NOT_FOUND") return "USER_NOT_FOUND";
     if(userRightSHA512 == "SHA512PWD_NOT_FOUND") return "SHA512PWD_NOT_FOUND";
@@ -111,7 +107,7 @@ function verifyLoginStatus() {
     }
 }
 
-function loginOut() {
+function logOut() {
     setCookie("username", "", 0);
     setCookie("userpwd", "", 0);
     setCookie("pwdSHA512", "", 0);
