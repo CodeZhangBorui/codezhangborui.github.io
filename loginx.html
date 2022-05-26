@@ -109,7 +109,7 @@
         vls == "WRONG_AUTHCODE" ||
         vls == "WRONG_PWD"
       ) {} else {
-        document.getElementById("greenTip").innerText = "用户已经登录！"
+        document.getElementById("greenTip").innerText = `用户 ${vls} 已经登录，无需再次登录！`
         setTimeout(`window.location="/"`, 2000);
       }
     </script>
