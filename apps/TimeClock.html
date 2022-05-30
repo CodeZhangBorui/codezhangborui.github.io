@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8" />
+  <title>正在启动应用：在线时钟</title>
+  <link rel="stylesheet" href="/lib/FluentIcons/FluentSystemIcons-Regular.css">
+  <link rel="icon" type="image/x-ico" href="/apps/PowerCode_PowerTimeClock_874fwe5df/store.png"/>
+  <script src="/api/paccount/userLogin.js"></script>
+  <script src="https://codezhangborui.github.io/api/paccount/userData/userLoginData/index.udata" type="text/javascript" charset="utf-8"></script>
+  <script>
+    vls = verifyLoginStatus();
+    if(
+      vls == "NOT_LOGIN" || 
+      vls == "USER_NOT_FOUND" || 
+      vls == "SHA512PWD_NOT_FOUND" ||
+      vls == "WRONG_AUTHCODE" ||
+      vls == "WRONG_PWD"
+    ) {
+      setTimeout("window.location='/loginx'",2000)
+    } else {
+      setTimeout("window.location='/apps/PowerCode_TimeClock_874fwe5df/index'",5000)
+    }
+  </script>
+  <style>
+    div.centerBox {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #ffffff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="centerBox">
+    <img src="/apps/PowerCode_TimeClock_874fwe5df/store.png" height="70px" />
+    <br/><br/><br/>
+    <img src="/static/loading.gif" height="40px" />
+  </div>
+</body>
+</html>
