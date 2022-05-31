@@ -15,7 +15,7 @@ div.appsBox {
   background-color: #ffffff;
 }
 
-appName {
+p.appName {
   font-size: 18px;
   font-weight: bold;
   display: flex;
