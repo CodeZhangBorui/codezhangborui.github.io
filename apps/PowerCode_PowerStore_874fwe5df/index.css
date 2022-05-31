@@ -16,13 +16,14 @@ div.appsBox {
 }
 
 p.appName {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   display: flex;
+  align-items: center;
   margin-bottom: 8px;
 }
 
 img.appIcon {
-  height: 17px;
+  height: 20px;
   margin-right: 3px;
 }
