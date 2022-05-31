@@ -14,3 +14,15 @@ div.appsBox {
   margin: 15px 5px 15px 5px;
   background-color: #ffffff;
 }
+
+appName {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+img.appIcon {
+  height: 17px;
+  margin-right: 3px;
+}
