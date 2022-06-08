@@ -1,3 +1,4 @@
+// win11 scrollbar
 .win11Scroll {
   &::-webkit-scrollbar {
     --scroll: rgb(255 255 255 / 80%);
@@ -63,4 +64,11 @@ body[data-theme="dark"] .win11Scroll,
       background-clip: padding-box;
     }
   }
+}
+
+.win11Btn {
+  background: var(--clrPrm);
+  color: var(--alt-txt);
+  padding: 6px 12px;
+  border-radius: 4px;
 }
