@@ -30,9 +30,4 @@ img.appIcon {
 
 button.openApp {
   margin-top: 4px;
-  box-shadow: 0px 0px 2px #888888;
-  background: #0067c0;
-  color: #fff;
-  padding: 6px 12px;
-  border-radius: 4px;
 }
