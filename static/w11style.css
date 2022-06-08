@@ -6,3 +6,7 @@
   border-radius: 4px;
   border: none;
 }
+
+.win11Btn:hover {
+  box-shadow: none;
+}
