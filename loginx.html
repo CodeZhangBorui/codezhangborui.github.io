@@ -58,12 +58,12 @@
   </div>
   <script>
     function enterFullscreen() {
-      document.getElementById("atFullscreen").setAttribute(`style`, `display: block;`);
       document.getElementById("normalContext").setAttribute(`style`, `display: none;`);
+      document.getElementById("atFullscreen").setAttribute(`style`, ``);
     }
     function exitFullscreen() {
       document.getElementById("atFullscreen").setAttribute(`style`, `display: none;`);
-      document.getElementById("normalContext").setAttribute(`style`, `display: block;`);
+      document.getElementById("normalContext").setAttribute(`style`, ``);
     }
   </script>
   <span id="atFullscreen" style="display: none;">
@@ -95,7 +95,7 @@
           </div>
         </div>
         <div style="margin: 10px; padding-left: 100px;">
-          <p>
+          <p style="display: flex; align-items: center;">
             <span style="color: red" id="redTip"></span>
             <span style="color: rgb(0, 196, 0)" id="greenTip"></span>
           </p>
