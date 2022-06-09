@@ -7,10 +7,19 @@
   <title>Virutal BSOD</title>
   <link rel="stylesheet" href="/error/public.min.css">
   <link rel="icon" type="image/x-ico" href="/static/warn.ico"/>
+  <link rel="stylesheet" href="/static/w11style.css"/>
 </head>
 
 <body>
-  <div id="page">
+  <script>
+    function bsIndex() {
+      requestFullScreen(document.documentElement);
+      document.getElementById("fscreen").setAttribute(`style`, `display: none;`);
+      document.getElementById("page").setAttribute(`style`, ``);
+    }
+  </script>
+  <button class="win11Btn" id="fscreen">开始模拟</button>
+  <div id="page" style="display: none;">
     <div id="container">
       <h1>:(</h1>
       <h2>你的电脑遇到问题，需要重新启动。<br />我们将为你收集某些信息，然后你可以自行重新启动。</h2>
