@@ -118,34 +118,34 @@
       var form = layui.form;
       //监听提交
       form.on('submit(formDemo)', function(data){
-        document.getElementById("redTip").innerHtml = ""
-        document.getElementById("greenTip").innerHtml = ""
+        document.getElementById("redTip").innerHTML = ""
+        document.getElementById("greenTip").innerHTML = ""
         //layer.msg(JSON.stringify(data.field));
         inputUsername = data.field.username;
         inputPassword = data.field.password;
         if(inputUsername == "") {
-          document.getElementById("redTip").innerHtml = `<i class="icon-ic_fluent_error_circle_16_regular"></i>&nbsp;用户名不能为空！`;
+          document.getElementById("redTip").innerHTML = `<i class="icon-ic_fluent_error_circle_16_regular"></i>&nbsp;用户名不能为空！`;
           return false;
         }
         if(inputPassword == "") {
-          document.getElementById("redTip").innerHtml = `<i class="icon-ic_fluent_error_circle_16_regular"></i>&nbsp;密码不能为空！`;
+          document.getElementById("redTip").innerHTML = `<i class="icon-ic_fluent_error_circle_16_regular"></i>&nbsp;密码不能为空！`;
           return false;
         }
         gvd = getVerifyData(inputUsername)
         if(gvd == "USER_NOT_FOUND") {
-          document.getElementById("redTip").innerHtml = `<i class="icon-ic_fluent_error_circle_16_regular"></i>&nbsp;用户不存在，请重试！`
+          document.getElementById("redTip").innerHTML = `<i class="icon-ic_fluent_error_circle_16_regular"></i>&nbsp;用户不存在，请重试！`
         } else if(gvd == "SHA512PWD") {
           lwp = loginWithPwd(inputUsername, inputPassword);
           if(lwp == "WRONG_PWD") {
-            document.getElementById("redTip").innerHtml = `<i class="icon-ic_fluent_error_circle_16_regular"></i>&nbsp;密码错误，请重试！`
+            document.getElementById("redTip").innerHTML = `<i class="icon-ic_fluent_error_circle_16_regular"></i>&nbsp;密码错误，请重试！`
           } else if(lwp == "VERIFY_OK") {
-            document.getElementById("greenTip").innerHtml = "登陆成功！"
+            document.getElementById("greenTip").innerHTML = "登陆成功！"
             setTimeout('goback()', 2000);
           } else {
-            document.getElementById("redTip").innerHtml = "Fatal Error: Bad LoginWithPwd"
+            document.getElementById("redTip").innerHTML = "Fatal Error: Bad LoginWithPwd"
           }
         } else {
-          document.getElementById("redTip").innerHtml = "Fatal Error: Bad GetVerifyData"
+          document.getElementById("redTip").innerHTML = "Fatal Error: Bad GetVerifyData"
         }
         return false;
       });
@@ -160,7 +160,7 @@
         vls == "WRONG_AUTHCODE" ||
         vls == "WRONG_PWD"
       ) {} else {
-        document.getElementById("greenTip").innerHtml = `用户 ${vls} 已经登录，无需再次登录！`
+        document.getElementById("greenTip").innerHTML = `用户 ${vls} 已经登录，无需再次登录！`
         setTimeout('goback()', 2000);
       }
     </script>
