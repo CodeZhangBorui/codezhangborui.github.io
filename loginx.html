@@ -58,12 +58,12 @@
   </div>
   <script>
     function enterFullscreen() {
-      document.getElementById("atFullscreen").setAttribute(`id="atFullscreen"`);
-      document.getElementById("normalContext").setAttribute(`id="normalContext" style="display:none;"`);
+      document.getElementById("atFullscreen").setAttribute(`style`, `display: block;`);
+      document.getElementById("normalContext").setAttribute(`style`, `display: none;`);
     }
     function exitFullscreen() {
-      document.getElementById("atFullscreen").setAttribute(`id="atFullscreen" style="display:none;"`);
-      document.getElementById("normalContext").setAttribute(`id="normalContext"`);
+      document.getElementById("atFullscreen").setAttribute(`style`, `display: none;`);
+      document.getElementById("normalContext").setAttribute(`style`, `display: block;`);
     }
   </script>
   <span id="atFullscreen" style="display: none;">
