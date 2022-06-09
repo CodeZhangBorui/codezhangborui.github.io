@@ -11,39 +11,6 @@
 </head>
 
 <body>
-  <script>
-    function bsIndex() {
-      requestFullScreen(document.documentElement);
-      document.getElementById("fscreen").setAttribute(`style`, `display: none;`);
-      document.getElementById("page").setAttribute(`style`, ``);
-    }
-  </script>
-  <button class="win11Btn" id="fscreen">开始模拟</button>
-  <div id="page" style="display: none;">
-    <div id="container">
-      <h1>:(</h1>
-      <h2>你的电脑遇到问题，需要重新启动。<br />我们将为你收集某些信息，然后你可以自行重新启动。</h2>
-      <h2>
-        <span id="percentage">0</span>% 已完成
-      </h2>
-      <div id="details">
-        <div id="qr">
-          <div id="image">
-            <img src="/apps/PowerCode_vBSOD_874fwe5df/WindowsStopcodeWebsite.png" alt="QR Code">
-          </div>
-        </div>
-        <div id="stopcode">
-          <h4>关于更多信息，请访问
-            <br> <a
-              href="https://windows.com/stopcode">windows.com/stopcode</a>
-          </h4>
-          <h5>如果需要支持，请提供如下信息:
-            <br>0x0000001E : KMODE_EXCEPTION_NOT_HANDLED
-          </h5>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- partial -->
   <script>
     function randomBetween(min, max) {
@@ -79,8 +46,41 @@
     function processInterval() {
       setTimeout(process, Math.random() * (1000 - 500) + 1000)
     }
-    processInterval();
   </script>
+  <!-- winIndex -->
+  <script>
+    function bsIndex() {
+      document.getElementById("fscreen").setAttribute(`style`, `display: none;`);
+      document.getElementById("page").setAttribute(`style`, ``);
+      processInterval();
+    }
+  </script>
+  <button class="win11Btn" id="fscreen">开始模拟</button>
+  <div id="page" style="display: none; cursor: default !important;">
+    <div id="container">
+      <h1>:(</h1>
+      <h2>你的电脑遇到问题，需要重新启动。<br />我们将为你收集某些信息，然后你可以自行重新启动。</h2>
+      <h2>
+        <span id="percentage">0</span>% 已完成
+      </h2>
+      <div id="details">
+        <div id="qr">
+          <div id="image">
+            <img src="/apps/PowerCode_vBSOD_874fwe5df/WindowsStopcodeWebsite.png" alt="QR Code">
+          </div>
+        </div>
+        <div id="stopcode">
+          <h4>关于更多信息，请访问
+            <br> <a
+              href="https://windows.com/stopcode">windows.com/stopcode</a>
+          </h4>
+          <h5>如果需要支持，请提供如下信息:
+            <br>0x0000001E : KMODE_EXCEPTION_NOT_HANDLED
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 <editor-card style="position:absolute;top:0px;left:0px;z-index:auto;display: block !important">
