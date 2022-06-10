@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8" />
+  <title>Windows 11 首次登陆动画</title>
+  <link rel="icon" type="image/x-ico" href="/apps/PowerCode_FirstLogonAnim_874fwe5df/favicon.png"/>
+  <link rel="stylesheet" href="/lib/layui/css/layui.css">
+  <link rel="stylesheet" href="/static/style.min.css">
+  <script src="/lib/layui/layui.js"></script>
+  <script src="/api/paccount/userLogin.js"></script>
+  <script src="https://codezhangborui.github.io/api/paccount/userData/userLoginData/index.udata" type="text/javascript" charset="utf-8"></script>
+  <script src="/apps/PowerCode_AppsLib_874fwe5df/backRedirect.js"></script>
+  <link rel="stylesheet" href="/static/w11style.css">
+  <style>
+    div.topMenu{
+      background-color: #dedede;
+      padding: 5px;
+      font-family: 'Microsoft YaHei UI';
+      font-size: 16px;
+      font-weight: bold;
+      display: flex;
+    }
+    iframe{
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="topMenu">
+    <a href="javascript:backRedirect();">
+      <i class="icon-ic_fluent_arrow_left_16_regular"></i>
+    </a>&nbsp;
+    <img src="/apps/PowerCode_FirstLogonAnim_874fwe5df/favicon.png" height="18px" />&nbsp;
+    Windows 11 首次登陆动画
+  </div>
+  <iframe src="/apps/PowerCode_FirstLogonAnim_874fwe5df/winMain.html" noresize="noresize" style="height: 100%; width: 100%; position: fixed;"></iframe>
+</body>
+</html>
