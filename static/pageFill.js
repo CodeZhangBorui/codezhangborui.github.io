@@ -25,13 +25,13 @@ function fill_footBlock() {
   <p>联系站长：[Discord] Code张博睿#4080</p>
   <p>
     主页:
-    <a href="https://codezhangborui.github.io/" target="_blank" style="color: #f3f3f3;">
+    <a href="https://codezhangborui.github.io/" target="_blank" style="color: #010101;">
       https://codezhangborui.github.io/
     </a>
   </p>
   <p>
     Github 仓库:
-    <a href="https://github.com/CodeZhangBorui/codezhangborui.github.io/" target="_blank" style="color: #f3f3f3;">
+    <a href="https://github.com/CodeZhangBorui/codezhangborui.github.io/" target="_blank" style="color: #010101;">
       https://github.com/CodeZhangBorui/codezhangborui.github.io/
     </a>
   </p>
