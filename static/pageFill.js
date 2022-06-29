@@ -1,7 +1,7 @@
 function fill_menuBar(this_element) {
   fillContent = `
 <li id="menuBar_Home" class="layui-nav-item"><a href="/">主页</a></li>
-<li id="menuBar_Article" class="layui-nav-item"><a href="/article/index">文章</a></li>
+<li id="menuBar_Article" class="layui-nav-item"><a href="/article/">文章</a></li>
 <li id="menuBar_Studio" class="layui-nav-item">
   <a href="javascript:;">工作室</a>
   <dl class="layui-nav-child"> <!-- 二级菜单 -->
@@ -25,7 +25,7 @@ function fill_footBlock() {
     <p>联系站长：[Discord] Code张博睿#4080</p>
     <p>
       主页:
-      <a href="https://codezhangborui.github.io/" target="_blank" style="color: #010101;">
+      <a href="https://codezhangborui.github.io/" target="_blank">
         https://codezhangborui.github.io/
       </a>
     </p>
