@@ -29,7 +29,7 @@ function fill_footBlock() {
         https://codezhangborui.github.io/
       </a>
     </p>
-    <p>最后更新：2022-6-29</p>
+    <p>最后更新：2022-7-10</p>
   </div>
 </div>
 `
