@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PowerAccount 账号注册，RegText 解码工具</title>
+  <script src="https://cdn.bootcss.com/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+  <style>
+    body {
+      padding: 10px;
+    }
+    div {
+      padding: 4px;
+      border: 3px;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+      font-family: 'Consolas', 'Courier New';
+    }
+  </style>
+</head>
+<body>
+  <script>
+    function decryptByDES(ciphertext, key){
+      var keyHex = CryptoJS.enc.Utf8.parse(key);
+      var decrypted = CryptoJS.DES.decrypt({
+          ciphertext: CryptoJS.enc.Hex.parse(ciphertext)
+      }, keyHex, {
+          mode: CryptoJS.mode.ECB,
+          padding: CryptoJS.pad.Pkcs7
+      });
+      var result_value = decrypted.toString(CryptoJS.enc.Utf8);
+      return result_value;
+    }
+    function start() {
+      var regText = prompt("请输入 regText");
+      if(regText == '' || regText == null) {
+        return;
+      }
+      var decryptStr = decryptByDES(regText);
+      if(decryptStr == '') {
+        alert("regText 无效，请检查！");
+        return;
+      }
+      infoList = decryptStr.split(",");
+      udata = `,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;"${infoList[0]}":&nbsp;{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"verify":&nbsp;"SHA512PWD",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"SHA512PWD":&nbsp;"${infoList[1]}"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}`
+      document.getElementById('udata').innerHTML = udata;
+    }
+  </script>
+  <h1>PowerAccount 账号注册，RegText 解码工具</h1>
+  <br/>
+  <div id="udata">
+    //请点击下方按钮开始解码
+  </div>
+  <br/>
+  <button onclick="start();">解码</button>
+</body>
+</html>
