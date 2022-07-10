@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PowerAccount - 用户注册</title>
+  <link rel="stylesheet" href="/static/w11style.css">
+  <link rel="stylesheet" href="/lib/FluentIcons/FluentSystemIcons-Regular.css">
+  <script src="/api/paccount/userLogin.js"></script>
+  <script src="https://codezhangborui.github.io/api/paccount/userData/userLoginData/index.udata" type="text/javascript" charset="utf-8"></script>
+  <script src="https://cdn.bootcss.com/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+  <style>
+    body {
+      height: 100%;
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+    div.root {
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      background: url(/static/sunrise.jpg);
+      background-size: 100%;
+    }
+    h1 {
+      font-size: 35px;
+      display: flex;
+      justify-content: center;
+    }
+    div.terBox {
+      border: 3px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 15%;
+      margin-right: 15%;
+      padding: 12px;
+      font-size: 18px;
+      font-family: 'Consolas', 'Courier New';
+    }
+    span.regText {
+      display: block;
+      border: 3px;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+      background: white;
+      padding: 5px;
+      word-break: break-all;
+    }
+    span.inputBox {
+      border: 3px;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+      background-color: white;
+      padding: 3px;
+      display: inline-block;
+      width: 40%;
+    }
+    .warn {
+      color: red;
+    }
+    a.bbut_off {
+      text-decoration: none;
+      font-weight: bold;
+      color: rgb(151, 151, 151);
+    }
+    a.bbut_on {
+      text-decoration: none;
+      font-weight: bold;
+      color: rgb(0, 203, 230);
+    }
+  </style>
+  <script>
+    function encryptByDES(message, key){
+        var keyHex = CryptoJS.enc.Utf8.parse(key);
+        var encrypted = CryptoJS.DES.encrypt(message, keyHex, {
+            mode: CryptoJS.mode.ECB,
+            padding: CryptoJS.pad.Pkcs7
+        });
+        return encrypted.ciphertext.toString();
+    }
+  </script>
+  <script>
+    var nowStep = 0;
+    var username = "";
+    var password = "";
+    var regInfo = {
+      "maxStep": 5,
+      "stepsInfo": [
+        {
+          "maxLine": 2,
+          "content": [
+            `欢迎注册 PowerAccount！`,
+            `请按回车键继续……`
+          ],
+          "beforeCode": `document.getElementById("bbut").setAttribute("class", "bbut_off")`,
+          "afterCode": `return 0;`
+        },
+        {
+          "maxLine": 2,
+          "content": [
+            `欢迎注册 PowerAccount！`,
+            `请输入用户名：<span id="username" class="inputBox" contenteditable></span>&nbsp;<span class="warn"></span>`
+          ],
+          "beforeCode": `
+document.getElementById("bbut").setAttribute("class", "bbut_on")`,
+          "afterCode": `
+var inputUsername = document.getElementById("username").innerText;
+inputUsername.replaceAll("\\n", "");
+if(getVerifyData(inputUsername) == "USER_NOT_FOUND") {
+  if(inputUsername.length < 4) {
+    document.getElementsByClassName("warn")[0].innerHTML = "❌ 用户名长度最少为4";
+    setTimeout('document.getElementById("username").innerText = "'+inputUsername+'"', 10);
+    return 1;
+  } else if(inputUsername.length > 30) {
+    document.getElementsByClassName("warn")[0].innerHTML = "❌ 用户名长度最大为30";
+    setTimeout('document.getElementById("username").innerText = "'+inputUsername+'"', 10);
+    return 1;
+  } else {
+    username = inputUsername;
+    return 0;
+  }
+} else {
+  document.getElementsByClassName("warn")[0].innerHTML = "❌ 这个用户名已经被人用过了，请再试一个吧~";
+  setTimeout('document.getElementById("username").innerText = "'+inputUsername+'"', 10);
+  return 1;
+}`
+        },
+        {
+          "maxLine": 3,
+          "content": [
+            `欢迎注册 PowerAccount！`,
+            `用户名：<span id=username></span>`,
+            `请输入密码：<span id="password" class="inputBox" contenteditable></span>&nbsp;<span class="warn"></span>`
+          ],
+          "beforeCode": `
+document.getElementById("username").innerText = username`,
+          "afterCode": `
+var inputPwd = document.getElementById("password").innerText;
+inputPwd.replaceAll("\\n", "");
+if(inputPwd != "") {
+  if(inputPwd.length > 32) {
+    document.getElementsByClassName("warn")[0].innerHTML = "❌ 密码长度最大为32";
+    setTimeout('document.getElementById("password").innerText = "'+inputPwd+'"', 10);
+    return 1;
+  } else {
+    password = inputPwd;
+    return 0;
+  }
+} else {
+  document.getElementsByClassName("warn")[0].innerHTML = "❌ 密码不能为空！";
+  setTimeout('document.getElementById("password").innerText = "'+inputPwd+'"', 10);
+  return 1; 
+}`
+        },
+        {
+          "maxLine": 4,
+          "content": [
+            `欢迎注册 PowerAccount！`,
+            `用户名：<span id=username></span>`,
+            `密码　：<span id=password></span>`,
+            `确认继续请按回车`
+          ],
+          "beforeCode": `
+document.getElementById("username").innerText = username;
+document.getElementById("password").innerText = password`,
+          "afterCode": `return 0;`
+        },
+        {
+          "maxLine": 8,
+          "content": [
+            `欢迎注册 PowerAccount！`,
+            `用户名：<span id=username></span>`,
+            `密码　：<span id=password></span>`,
+            ``,
+            `只差最后一步了！`,
+            ``,
+            `<span class="regText"></span>`,
+            `请将上方代码复制并发送电子邮件到 <b>pagereg@codezhangborui.eu.org</b>（主题为 <b>PageReg</b>），我们的管理员将在收到后尽快审核。如审核通过，将以邮件的形式通知您。`
+          ],
+          "beforeCode": `
+document.getElementById("username").innerText = username;
+secretPassword = "·".repeat(password.length);
+document.getElementById("password").innerText = secretPassword;
+regText = encryptByDES(username + "," + sha512(password));
+document.getElementsByClassName("regText")[0].innerText = regText`,
+          "afterCode": `return 0;`
+        }
+      ]
+    }
+    function clearContent() {
+      for (let i = 0; i < 10; i++) {
+        document.getElementById(`line${i}`).innerHTML = "";
+      }
+    }
+    function outputContent() {
+      clearContent();
+      var allContent = regInfo.stepsInfo[nowStep].content;
+      var maxLine = regInfo.stepsInfo[nowStep].maxLine;
+      for (let i = 0; i < maxLine; i++) {
+        document.getElementById(`line${i}`).innerHTML = allContent[i];
+      }
+    }
+    function nextStep() {
+      var afterCodeFunc = new Function(regInfo.stepsInfo[nowStep].afterCode);
+      var afterRet = afterCodeFunc();
+      if(afterRet != 0) {
+        console.warn("无法执行下一步操作：afterCode 拒绝下一步")
+        return -2;
+      }
+      if(nowStep + 1 == regInfo.maxStep) {
+        console.error("无法执行下一步操作：操作已满");
+        return -1;
+      }
+      nowStep++;
+      outputContent();
+      eval(regInfo.stepsInfo[nowStep].beforeCode);
+    }
+    function backStep() {
+      if(nowStep == 0) {
+        console.error("无法执行上一步操作：操作已空");
+        return -1;
+      }
+      nowStep--;
+      outputContent();
+      eval(regInfo.stepsInfo[nowStep].beforeCode);
+    }
+
+    document.onkeypress = function(event) {
+      if(event.keyCode == 13) {
+        nextStep();
+      }
+    }
+  </script>
+</head>
+<body>
+  <script>
+    
+  </script>
+  <div class="root">
+    <h1>PowerAccount 账号注册</h1>
+    <div class="acrylic terBox">
+      <a class="bbut_off" id="bbut" href="javascript:backStep();">
+        <i class="icon-ic_fluent_arrow_left_16_regular"></i>
+      </a>
+      <span id="line0"></span><br/>
+      <span id="line1"></span><br/>
+      <span id="line2"></span><br/>
+      <span id="line3"></span><br/>
+      <span id="line4"></span><br/>
+      <span id="line5"></span><br/>
+      <span id="line6"></span><br/>
+      <span id="line7"></span><br/>
+      <span id="line8"></span><br/>
+      <span id="line9"></span><br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+    </div>
+  </div>
+  <script>
+    outputContent();
+  </script>
+</body>
+</html>
