@@ -6,42 +6,7 @@
 		<lastmod>2022-07-11</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/test/codespace.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-07-11</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/dev/maps.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-07-11</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/tool.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-07-10</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/logout.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-05-29</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/loginx.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-06-05</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/downloads.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-07-10</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/article</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-07-10</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/about.html</loc>
+		<loc>https://www.codezhangborui.github.io/register.html</loc>
 		<priority>0.75</priority>
 		<lastmod>2022-07-11</lastmod>
 	</url>
@@ -51,82 +16,52 @@
 		<lastmod>2022-05-22</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/register.html</loc>
+		<loc>https://www.codezhangborui.github.io/about.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2022-07-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/article</loc>
 		<priority>0.75</priority>
 		<lastmod>2022-07-10</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/studio/powercode.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-05-04</lastmod>
+		<loc>https://www.codezhangborui.github.io/downloads.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2022-07-10</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/redirect/zxrditdata.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-05-22</lastmod>
+		<loc>https://www.codezhangborui.github.io/loginx.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2022-06-05</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/redirect/histscan.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-05-22</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/redirect/hbpaperdload.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-05-22</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/files/vBSOD.html</loc>
-		<priority>0.50</priority>
+		<loc>https://www.codezhangborui.github.io/logout.html</loc>
+		<priority>0.75</priority>
 		<lastmod>2022-05-29</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/error/notopen.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-05-22</lastmod>
+		<loc>https://www.codezhangborui.github.io/tool.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2022-07-10</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/article/eg_store_remake.html</loc>
+		<loc>https://www.codezhangborui.github.io/dev/maps.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2022-07-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/test/codespace.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2022-07-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/admin/pagereg.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2022-07-10</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/apps/ZxrdHack.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-05</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/apps/W11React.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-05</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/apps/vBSOD.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-05</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/apps/TimeClock.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-05</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/apps/PowerStore.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-05</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/apps/PowerCode_ZxrdHack_874fwe5df</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-05</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/apps/PowerCode_vBSOD_874fwe5df</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-05</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.github.io/apps/PowerCode_TimeClock_874fwe5df</loc>
+		<loc>https://www.codezhangborui.github.io/apps/Blueedge_W11React_4g58e4r4d</loc>
 		<priority>0.50</priority>
 		<lastmod>2022-06-05</lastmod>
 	</url>
@@ -136,37 +71,82 @@
 		<lastmod>2022-06-05</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/apps/Blueedge_W11React_4g58e4r4d</loc>
+		<loc>https://www.codezhangborui.github.io/apps/PowerCode_TimeClock_874fwe5df</loc>
 		<priority>0.50</priority>
 		<lastmod>2022-06-05</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/admin/pagereg.html</loc>
+		<loc>https://www.codezhangborui.github.io/apps/PowerCode_vBSOD_874fwe5df</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-06-05</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/apps/PowerCode_ZxrdHack_874fwe5df</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-06-05</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/apps/PowerStore.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-06-05</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/apps/TimeClock.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-06-05</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/apps/vBSOD.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-06-05</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/apps/W11React.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-06-05</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/apps/ZxrdHack.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-06-05</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/article/eg_store_remake.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2022-07-10</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/lib/FluentIcons/FluentSystemIcons-Regular.html</loc>
-		<priority>0.25</priority>
+		<loc>https://www.codezhangborui.github.io/error/notopen.html</loc>
+		<priority>0.50</priority>
 		<lastmod>2022-05-22</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/lib/FluentIcons/FluentSystemIcons-Filled.html</loc>
-		<priority>0.25</priority>
+		<loc>https://www.codezhangborui.github.io/files/vBSOD.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-05-29</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/redirect/hbpaperdload.html</loc>
+		<priority>0.50</priority>
 		<lastmod>2022-05-22</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/article/tags/powercode.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2022-07-10</lastmod>
+		<loc>https://www.codezhangborui.github.io/redirect/histscan.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-05-22</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/apps/PowerCode_ZxrdHack_874fwe5df/winMain.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2022-06-05</lastmod>
+		<loc>https://www.codezhangborui.github.io/redirect/zxrditdata.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-05-22</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/apps/PowerCode_TimeClock_874fwe5df/winMain.html</loc>
+		<loc>https://www.codezhangborui.github.io/studio/powercode.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-05-04</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/apps/Blueedge_W11React_4g58e4r4d/winMain.html</loc>
 		<priority>0.25</priority>
 		<lastmod>2022-06-05</lastmod>
 	</url>
@@ -176,8 +156,28 @@
 		<lastmod>2022-06-05</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.github.io/apps/Blueedge_W11React_4g58e4r4d/winMain.html</loc>
+		<loc>https://www.codezhangborui.github.io/apps/PowerCode_TimeClock_874fwe5df/winMain.html</loc>
 		<priority>0.25</priority>
 		<lastmod>2022-06-05</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/apps/PowerCode_ZxrdHack_874fwe5df/winMain.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2022-06-05</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/article/tags/powercode.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2022-07-10</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/lib/FluentIcons/FluentSystemIcons-Filled.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2022-05-22</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.github.io/lib/FluentIcons/FluentSystemIcons-Regular.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2022-05-22</lastmod>
 	</url>
 </urlset>
