@@ -63,8 +63,18 @@
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.1/mapbox-gl.css' rel='stylesheet' />
     <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
+        body {
+          margin: 0;
+          padding: 0;
+        }
+        iframe#map {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+        }
     </style>
 </head>
 <body>
@@ -77,29 +87,22 @@
         font-family: 'Open Sans', sans-serif;
     }
 </style>
-
-<div id='map'></div>
 <div id='menu'>
-    <input id='cl5grhmb4001y14qomygjvlb8' type='radio' name='rtoggle' value='Basic' checked='checked'>
-    <label for='Basic'>基本</label>
-    <input id='light-v10' type='radio' name='rtoggle' value='light'>
-    <label for='light'>light</label>
+  <input id='cl5grhmb4001y14qomygjvlb8' type='radio' name='rtoggle' value='Basic' checked='checked'>
+  <label for='Basic'>基本</label>
+  <input id='light-v10' type='radio' name='rtoggle' value='light'>
+  <label for='light'>light</label>
 </div>
+<iframe id="map" src="https://api.mapbox.com/styles/v1/codezhangborui/cl5grhmb4001y14qomygjvlb8.html?title=false&access_token=pk.eyJ1IjoiY29kZXpoYW5nYm9ydWkiLCJhIjoiY2twam96aTloMzBjcDJ3bGE5ZzVqeTVyeCJ9.7ypo4hhH_hHPFwgl2qb7kA&zoomwheel=false#4.1/31.49/109.49" title="Basic" style="border:none;"></iframe>
+
 <script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiY29kZXpoYW5nYm9ydWkiLCJhIjoiY2twam96aTloMzBjcDJ3bGE5ZzVqeTVyeCJ9.7ypo4hhH_hHPFwgl2qb7kA';
-var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/codezhangborui/cl5grhmb4001y14qomygjvlb8',
-    zoom: 13,
-    center: [4.899, 52.372]
-});
 
 var layerList = document.getElementById('menu');
 var inputs = layerList.getElementsByTagName('input');
 
 function switchLayer(layer) {
     var layerId = layer.target.id;
-    map.setStyle('mapbox://styles/codezhangborui/' + layerId);
+    //map.setStyle('mapbox://styles/codezhangborui/' + layerId);
 }
 
 for (var i = 0; i < inputs.length; i++) {
