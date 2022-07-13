@@ -106,7 +106,7 @@
             `请输入用户名：<span id="username" class="inputBox" contenteditable></span>&nbsp;<span class="warn"></span>`
           ],
           "beforeCode": `
-document.getElementById("bbut").setAttribute("class", "bbut_on")`,
+document.getElementById("username").innerText = username`,
           "afterCode": `
 var inputUsername = document.getElementById("username").innerText;
 inputUsername.replaceAll("\\n", "");
@@ -137,7 +137,8 @@ if(getVerifyData(inputUsername) == "USER_NOT_FOUND") {
             `请输入密码：<span id="password" class="inputBox" contenteditable></span>&nbsp;<span class="warn"></span>`
           ],
           "beforeCode": `
-document.getElementById("username").innerText = username`,
+document.getElementById("username").innerText = username
+document.getElementById("password").innerText = password`,
           "afterCode": `
 var inputPwd = document.getElementById("password").innerText;
 inputPwd.replaceAll("\\n", "");
@@ -217,6 +218,16 @@ document.getElementsByClassName("regText")[0].innerText = regText`,
       }
       nowStep++;
       outputContent();
+      if(nowStep == 0) {
+        document.getElementById("bbut_back").setAttribute("class", "bbut_off")
+      } else {
+        document.getElementById("bbut_back").setAttribute("class", "bbut_on")
+      }
+      if(nowStep + 1 == regInfo.maxStep) {
+        document.getElementById("bbut_next").setAttribute("class", "bbut_off");
+      } else {
+        document.getElementById("bbut_next").setAttribute("class", "bbut_on");
+      }
       eval(regInfo.stepsInfo[nowStep].beforeCode);
     }
     function backStep() {
@@ -226,6 +237,16 @@ document.getElementsByClassName("regText")[0].innerText = regText`,
       }
       nowStep--;
       outputContent();
+      if(nowStep == 0) {
+        document.getElementById("bbut_back").setAttribute("class", "bbut_off")
+      } else {
+        document.getElementById("bbut_back").setAttribute("class", "bbut_on")
+      }
+      if(nowStep + 1 == regInfo.maxStep) {
+        document.getElementById("bbut_next").setAttribute("class", "bbut_off");
+      } else {
+        document.getElementById("bbut_next").setAttribute("class", "bbut_on");
+      }
       eval(regInfo.stepsInfo[nowStep].beforeCode);
     }
 
@@ -243,8 +264,11 @@ document.getElementsByClassName("regText")[0].innerText = regText`,
   <div class="root">
     <h1>PowerAccount 账号注册</h1>
     <div class="acrylic terBox">
-      <a class="bbut_off" id="bbut" href="javascript:backStep();">
+      <a class="bbut_off" id="bbut_back" href="javascript:backStep();">
         <i class="icon-ic_fluent_arrow_left_16_regular"></i>
+      </a>
+      <a class="bbut_on" id="bbut_next" href="javascript:nextStep();">
+        <i class="icon-ic_fluent_arrow_right_16_regular"></i>
       </a>
       <span id="line0"></span><br/>
       <span id="line1"></span><br/>
