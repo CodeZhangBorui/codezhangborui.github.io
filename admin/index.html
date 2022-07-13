@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>CodeZhangBorui & PowerCode Pages 管理员面板</title>
+  <script src="/api/paccount/userLogin.js"></script>
+  <script src="/api/paccount/userData/userLoginData/index.udata" type="text/javascript" charset="utf-8"></script>
+  <script src="/admin/adminList.js"></script>
+  <style>
+    body {
+      padding: 10px;
+    }
+    div.pagelist {
+      padding: 8px;
+      border: 3px;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+    }
+  </style>
+</head>
+<body>
+  <h1>CodeZhangBorui & PowerCode Pages 管理员面板</h1>
+  <br/>
+  <div class="pagelist">
+    <a href="/admin/pagereg">PowerAccount 账号注册，RegText 解码工具</a>
+  </div>
+  <script>
+    vls = verifyLoginStatus();
+    if(
+      vls == "NOT_LOGIN" || 
+      vls == "USER_NOT_FOUND" || 
+      vls == "SHA512PWD_NOT_FOUND" ||
+      vls == "WRONG_AUTHCODE" ||
+      vls == "WRONG_PWD"
+    ) {
+      window.location = "/loginx";
+    } else if(adminList.indexOf(vls) == -1) {
+      document.body.innerHTML = `<h1>错误：您无权访问此页面，将在10秒后返回主页。</h1>`;
+      setTimeout(() => {
+        window.location = "/";
+      }, 10000);
+    }
+  </script>
+</body>
+</html>

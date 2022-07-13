@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <title>PowerAccount 账号注册，RegText 解码工具</title>
+  <script src="/api/paccount/userLogin.js"></script>
+  <script src="/api/paccount/userData/userLoginData/index.udata" type="text/javascript" charset="utf-8"></script>
+  <script src="/admin/adminList.js"></script>
   <script src="https://cdn.bootcss.com/crypto-js/3.1.9-1/crypto-js.min.js"></script>
   <style>
     body {
@@ -56,5 +59,22 @@
   </div>
   <br/>
   <button onclick="start();">解码</button>
+  <script>
+    vls = verifyLoginStatus();
+    if(
+      vls == "NOT_LOGIN" || 
+      vls == "USER_NOT_FOUND" || 
+      vls == "SHA512PWD_NOT_FOUND" ||
+      vls == "WRONG_AUTHCODE" ||
+      vls == "WRONG_PWD"
+    ) {
+      window.location = "/loginx";
+    } else if(adminList.indexOf(vls) == -1) {
+      document.body.innerHTML = `<h1>错误：您无权访问此页面，将在10秒后返回主页。</h1>`;
+      setTimeout(() => {
+        window.location = "/";
+      }, 10000);
+    }
+  </script>
 </body>
 </html>
