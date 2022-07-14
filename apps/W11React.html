@@ -40,6 +40,9 @@
     <br/><br/><br/>
     <img src="/static/loading.gif" height="40px" />
   </div>
+  <div id="longTimeTip">
+    <p>如果此页面长时间没有响应，您可以试试：<a href="javascript:window.location = document.referrer">刷新</a></p>
+  </div>
   <script>
     document.getElementById("longTimeTip").setAttribute("style", `display: none;`);
     setTimeout(`document.getElementById("longTimeTip").setAttribute("style", "");`, 6000)
