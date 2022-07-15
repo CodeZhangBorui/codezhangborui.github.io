@@ -6,39 +6,9 @@
 		<lastmod>2022-07-13</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.eu.org/404.html</loc>
+		<loc>https://www.codezhangborui.eu.org/admin</loc>
 		<priority>0.75</priority>
 		<lastmod>2022-07-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/about.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-07-11</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/article</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-07-10</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/downloads.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-07-10</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/loginx.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-07-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/logout.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-07-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/register.html</loc>
-		<priority>0.75</priority>
-		<lastmod>2022-07-14</lastmod>
 	</url>
 	<url>
 		<loc>https://www.codezhangborui.eu.org/tool.html</loc>
@@ -46,87 +16,57 @@
 		<lastmod>2022-07-10</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.eu.org/admin</loc>
+		<loc>https://www.codezhangborui.eu.org/register.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2022-07-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/logout.html</loc>
 		<priority>0.75</priority>
 		<lastmod>2022-07-13</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.eu.org/admin/pagereg.html</loc>
-		<priority>0.50</priority>
+		<loc>https://www.codezhangborui.eu.org/loginx.html</loc>
+		<priority>0.75</priority>
 		<lastmod>2022-07-13</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/Blueedge_W11React_4g58e4r4d</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-13</lastmod>
+		<loc>https://www.codezhangborui.eu.org/downloads.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2022-07-15</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/FirstLogonAnim.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-14</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_FirstLogonAnim_874fwe5df</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_PowerStore_874fwe5df</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_TimeClock_874fwe5df</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_vBSOD_874fwe5df</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-06-19</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_ZxrdHack_874fwe5df</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/PowerStore.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-14</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/TimeClock.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-14</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/vBSOD.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-14</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/W11React.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-14</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/ZxrdHack.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-14</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/article/eg_store_remake.html</loc>
-		<priority>0.50</priority>
+		<loc>https://www.codezhangborui.eu.org/article</loc>
+		<priority>0.75</priority>
 		<lastmod>2022-07-10</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.eu.org/error/notopen.html</loc>
+		<loc>https://www.codezhangborui.eu.org/about.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2022-07-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/404.html</loc>
+		<priority>0.75</priority>
+		<lastmod>2022-07-13</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/test/maps.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-11</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/test/codespace.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2022-07-13</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.eu.org/redirect/hbpaperdload.html</loc>
+		<loc>https://www.codezhangborui.eu.org/studio/powercode.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-13</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/redirect/zxrditdata.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2022-05-22</lastmod>
 	</url>
@@ -136,27 +76,112 @@
 		<lastmod>2022-05-22</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.eu.org/redirect/zxrditdata.html</loc>
+		<loc>https://www.codezhangborui.eu.org/redirect/hbpaperdload.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2022-05-22</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.eu.org/studio/powercode.html</loc>
+		<loc>https://www.codezhangborui.eu.org/error/notopen.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2022-07-13</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.eu.org/test/codespace.html</loc>
+		<loc>https://www.codezhangborui.eu.org/article/eg_store_remake.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-10</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/apps/ZxrdHack.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/apps/W11React.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/apps/vBSOD.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/apps/TimeClock.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/apps/PowerStore.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_ZxrdHack_874fwe5df</loc>
 		<priority>0.50</priority>
 		<lastmod>2022-07-13</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.eu.org/test/maps.html</loc>
+		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_vBSOD_874fwe5df</loc>
 		<priority>0.50</priority>
-		<lastmod>2022-07-11</lastmod>
+		<lastmod>2022-06-19</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/Blueedge_W11React_4g58e4r4d/winMain.html</loc>
+		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_TimeClock_874fwe5df</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-13</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_PowerStore_874fwe5df</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-13</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_FirstLogonAnim_874fwe5df</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-13</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/apps/FirstLogonAnim.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/apps/Blueedge_W11React_4g58e4r4d</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-13</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/admin/pagereg.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2022-07-13</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/lib/FluentIcons/FluentSystemIcons-Regular.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2022-05-22</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/lib/FluentIcons/FluentSystemIcons-Filled.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2022-05-22</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/article/tags/powercode.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2022-07-10</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_ZxrdHack_874fwe5df/winMain.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2022-06-05</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_TimeClock_874fwe5df/winMain.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2022-06-05</lastmod>
+	</url>
+	<url>
+		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_PowerStore_874fwe5df/winMain.html</loc>
 		<priority>0.25</priority>
 		<lastmod>2022-07-13</lastmod>
 	</url>
@@ -166,33 +191,8 @@
 		<lastmod>2022-06-19</lastmod>
 	</url>
 	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_PowerStore_874fwe5df/winMain.html</loc>
+		<loc>https://www.codezhangborui.eu.org/apps/Blueedge_W11React_4g58e4r4d/winMain.html</loc>
 		<priority>0.25</priority>
 		<lastmod>2022-07-13</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_TimeClock_874fwe5df/winMain.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2022-06-05</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/apps/PowerCode_ZxrdHack_874fwe5df/winMain.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2022-06-05</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/article/tags/powercode.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2022-07-10</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/lib/FluentIcons/FluentSystemIcons-Filled.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2022-05-22</lastmod>
-	</url>
-	<url>
-		<loc>https://www.codezhangborui.eu.org/lib/FluentIcons/FluentSystemIcons-Regular.html</loc>
-		<priority>0.25</priority>
-		<lastmod>2022-05-22</lastmod>
 	</url>
 </urlset>
