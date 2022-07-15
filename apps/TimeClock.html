@@ -8,31 +8,8 @@
   <link rel="icon" type="image/x-ico" href="/apps/PowerCode_TimeClock_874fwe5df/favicon.png"/>
   <script src="/api/paccount/userLogin.js"></script>
   <script src="/api/paccount/userData/userLoginData/index.udata" type="text/javascript" charset="utf-8"></script>
-  <script>
-    vls = verifyLoginStatus();
-    if(
-      vls == "NOT_LOGIN" || 
-      vls == "USER_NOT_FOUND" || 
-      vls == "SHA512PWD_NOT_FOUND" ||
-      vls == "WRONG_AUTHCODE" ||
-      vls == "WRONG_PWD"
-    ) {
-      setTimeout("window.location='/loginx'",2000)
-    } else {
-      setTimeout("window.location='/apps/PowerCode_TimeClock_874fwe5df/'",5000)
-    }
-  </script>
-  <style>
-    div.centerBox {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      background-color: #ffffff;
-      padding: 10px;
-      text-align: center;
-    }
-  </style>
+  <script src="/apps/PowerCode_AppsLib_874fwe5df/js/appPortal.js"></script>
+  <link rel="stylesheet" href="/apps/PowerCode_AppsLib_874fwe5df/css/appPortal.css">
 </head>
 <body>
   <div class="centerBox">

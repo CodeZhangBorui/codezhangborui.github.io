@@ -1,0 +1,9 @@
+div.centerBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
